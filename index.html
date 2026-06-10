@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>hide &amp; geek — 3D experiments, worldbuilding &amp; digital art</title>
+<meta name="description" content="A creative space for 3D experiments, worldbuilding, and digital art. Built slowly. Broken occasionally. Improved constantly." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-accent="cyan" data-type="modern">
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <a class="brand" href="#top">
+      <span class="dotmark"></span>
+      <span>hide <span class="amp">&amp;</span> geek</span>
+    </a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="cta" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero" id="top">
+    <div class="hero-media" data-parallax>
+      <img src="assets/concept-car.jpg" alt="Concept hypercar render with cyan accent lighting" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-glow" id="heroGlow"></div>
+
+    <div class="hero-inner">
+      <span class="eyebrow reveal">Blender · 3D artist</span>
+      <h1 class="display reveal" style="--d:.08s">A creative space for 3D experiments, <span class="accent">worldbuilding</span> &amp; digital art.</h1>
+      <p class="hero-sub reveal" style="--d:.16s">Self-taught and still learning — building scenes one render at a time, from tutorials toward worlds of my own.</p>
+    </div>
+
+    <div class="hero-foot">
+      <div class="scroll-cue"><span class="bar"></span><span>scroll</span></div>
+      <div class="hero-tag">Featured · <b>Concept Hypercar</b></div>
+    </div>
+  </header>
+
+  <!-- ===================== WORK ===================== -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow plain reveal">Selected work</span>
+          <h2 class="display reveal" style="--d:.06s">The gallery</h2>
+        </div>
+        <p class="note reveal" style="--d:.12s">A growing shelf of finished pieces — more arrive as I create them.</p>
+      </div>
+
+      <!-- featured -->
+      <article class="featured">
+        <div class="media reveal" data-project="concept-car">
+          <img src="assets/concept-car.jpg" alt="Concept hypercar render" />
+          <span class="meta">Blender · Cycles</span>
+          <div class="arrow">↗</div>
+        </div>
+        <div class="featured-info">
+          <div class="kicker reveal"><span class="eyebrow">★ Most proud of</span></div>
+          <h3 class="reveal" style="--d:.06s">Concept Hypercar</h3>
+          <p class="reveal" style="--d:.1s">A custom concept sports car — gloss black panels, sculpted aero and cyan running lights, shot on a mountain road at golden hour. My most ambitious build so far.</p>
+          <p class="credit reveal" style="--d:.14s"><b>Inspired by</b> a tutorial by CG Masters</p>
+          <div class="reveal" style="--d:.18s; margin-top:26px;">
+            <button class="btn ghost" type="button" data-project="concept-car">View project <span class="ar">→</span></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- grid -->
+      <div class="grid">
+
+        <article class="card reveal" data-project="sunday-kitchen">
+          <div class="media">
+            <img src="assets/cosy-kitchen.jpg" alt="Cosy golden-hour kitchen baking scene" />
+            <div class="shade"></div>
+            <div class="arrow">↗</div>
+          </div>
+          <div class="card-foot"><h3>Sunday Kitchen</h3><span class="num">04 / cosy scene</span></div>
+          <p class="credit"><b>Inspired by</b> a tutorial by Mad Candy 3D</p>
+        </article>
+
+        <article class="card reveal" style="--d:.08s" data-project="neon-city">
+          <div class="media">
+            <img src="assets/neon-city.jpg" alt="Rainy neon cyberpunk alley render" />
+            <div class="shade"></div>
+            <div class="arrow">↗</div>
+          </div>
+          <div class="card-foot"><h3>Neon City</h3><span class="num">03 / environment</span></div>
+          <p class="credit"><b>Inspired by</b> a tutorial by Max Hay</p>
+        </article>
+
+        <article class="card reveal" data-project="warehouse">
+          <div class="media">
+            <img src="assets/warehouse.jpg" alt="Industrial warehouse interior render" />
+            <div class="shade"></div>
+            <div class="arrow">↗</div>
+          </div>
+          <div class="card-foot"><h3>The Warehouse</h3><span class="num">02 / interior</span></div>
+          <p class="credit"><b>Inspired by</b> a tutorial by Company of Visuals</p>
+        </article>
+
+        <article class="card reveal" style="--d:.08s" data-project="doughnuts">
+          <div class="media">
+            <img src="assets/doughnuts.jpg" alt="Pink-iced sprinkle doughnut and coffee render" />
+            <div class="shade"></div>
+            <div class="arrow">↗</div>
+          </div>
+          <div class="card-foot"><h3>Doughnuts</h3><span class="num">01 / first render</span></div>
+          <p class="credit"><b>Every Blender journey</b> starts here</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TAGLINE BAND ===================== -->
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow reveal">The ethos</span>
+      <div class="lines">
+        <span class="reveal">Built slowly.</span>
+        <span class="reveal" style="--d:.18s">Broken occasionally.</span>
+        <span class="reveal accent" style="--d:.36s">Improved constantly.</span>
+      </div>
+      <p class="sub reveal" style="--d:.5s">No deadlines. No clients. Just curiosity and a render button.</p>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="portrait media reveal">
+          <img src="assets/tony.jpg" alt="Tony at Lake Louise" />
+        </div>
+        <div class="about-body">
+          <span class="eyebrow plain reveal">About</span>
+          <h2 class="display reveal" style="--d:.06s">Hi, I'm Tony.</h2>
+          <p class="reveal" style="--d:.1s">I've been working with Blender for a couple of years now, and it's the first creative thing I've found that I genuinely <span class="hl">lose hours to</span>. Most of what you see here started as tutorial work — the best way I've found to learn.</p>
+          <p class="reveal" style="--d:.14s">This site is me planting a flag. The goal from here: <span class="hl">push past the tutorials and start making worlds of my own.</span></p>
+          <div class="tools reveal" style="--d:.18s">
+            <span class="tool"><span class="dot"></span>Blender</span>
+            <span class="tool"><span class="dot"></span>Cycles</span>
+            <span class="tool"><span class="dot"></span>Compositing</span>
+            <span class="tool"><span class="dot"></span>Lighting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <span class="eyebrow reveal" style="justify-content:center; display:flex;">Get in touch</span>
+      <h2 class="display reveal" style="--d:.06s; margin-top:18px;">Say hello.</h2>
+      <div class="mailwrap reveal" style="--d:.12s">
+        <button class="mail-btn" id="copyMail" type="button">
+          tony@hideandgeek.co.uk
+          <span class="copy">click to copy</span>
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrap row">
+        <a class="brand" href="#top"><span class="dotmark"></span><span>hide <span class="amp">&amp;</span> geek</span></a>
+        <div class="meta">© 2026 hideandgeek.co.uk · built in Blender, <span class="accent">slowly</span></div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- ===================== PROJECT LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project view">
+    <div class="lb-bar">
+      <span class="lb-counter" id="lbCounter"></span>
+      <div class="lb-actions">
+        <button class="lb-btn prev" id="lbPrev" type="button" aria-label="Previous project">←</button>
+        <button class="lb-btn next" id="lbNext" type="button" aria-label="Next project">→</button>
+        <button class="lb-btn close" id="lbClose" type="button" aria-label="Close">✕</button>
+      </div>
+    </div>
+    <div class="lb-inner">
+      <header class="lb-head">
+        <span class="eyebrow plain" id="lbCat"></span>
+        <h2 class="display" id="lbTitle"></h2>
+        <p class="lb-desc" id="lbDesc"></p>
+        <p class="lb-credit" id="lbCredit"></p>
+      </header>
+      <div class="lb-gallery" id="lbGallery"></div>
+    </div>
+  </div>
+
+  <!-- ===================== IMAGE ZOOM ===================== -->
+  <div class="img-zoom" id="imgZoom" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Enlarged render">
+    <button class="lb-btn close iz-close" id="izClose" type="button" aria-label="Close">✕</button>
+    <img id="izImg" alt="" />
+    <span class="iz-cap" id="izCap"></span>
+  </div>
+
+  <div class="copied-toast" id="toast">copied to clipboard ✓</div>
+
+  <!-- ===================== TWEAKS ===================== -->
+  <div id="tweaks-root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="site.js"></script>
+  <script src="projects.js"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="tweaks.jsx"></script>
+</body>
+</html>
