@@ -53,6 +53,16 @@ Copy a `{ … }` block, paste it near the **top** of the list (newest first), an
 ```
 No renders yet? Use `renders: []` and add `comingSoon: true,` — it shows a tidy "in progress" card.
 
+### Add a video (e.g. a turntable)
+Same as a photo, but point `src` at an `.mp4`. It autoplays muted, loops, and opens fullscreen on click. Add a `poster` still that shows before it loads:
+```js
+renders: [
+  { src: 'assets/doughnuts.jpg', cap: 'The classic · Cycles' },
+  { src: 'assets/spin.mp4', poster: 'assets/doughnuts.jpg', cap: 'Turntable' }
+],
+```
+Keep videos short and under ~10&nbsp;MB. The card cover always uses the first still image, so put an image first.
+
 ### Change the main / featured project
 Move the line `featured: true,` onto the project you want as the big hero piece. Only **one** project should have it. The hero image is that project's **first** render.
 
