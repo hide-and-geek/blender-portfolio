@@ -479,7 +479,7 @@ body.lb-lock { overflow: hidden; }
 }
 .img-zoom.open { display: grid; }
 .img-zoom img {
-  max-width: min(96vw, 1600px); max-height: 88vh; width: auto; height: auto;
+  max-width: min(100%, 1600px); max-height: 88vh; width: auto; height: auto;
   object-fit: contain; border-radius: 10px; border: 1px solid var(--line);
   box-shadow: 0 50px 130px -30px #000;
 }
